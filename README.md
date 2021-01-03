@@ -7,12 +7,11 @@ Dutch national groundwater database Dino
 ----------------------------------------
 More than 80.000 groundwater head series from the Netherlands are available on https://www.dinoloket.nl/ and can be downloaded manually free of charge. This repository presents tables with digested data from this groundwater database to help users find groundwater head series with specific characteristics more easily. Files are updated every few months, as creating these tables requires downloading data from dinoloket manually.
 
-Two tables with digested data are available:
+Two tables with digested data are available: 
 
-###dino-srstats.csv
-coordinates, number of measurement years and Gxg statistics of over 80.000 ground water head series
-
-#### fields available:
+dino-srstats.csv 
+---------------- 
+statistics from over 80.000 well tube measurements 
 
 | column name   | content description                                      |
 | -----------   | -------------------                                      |
@@ -33,15 +32,16 @@ coordinates, number of measurement years and Gxg statistics of over 80.000 groun
 | nyears        | number of years with measurements
 | mean          | mean of groundwater level measurements (mNAP)
 | median        | median of groundwater level measurements (mNAP)
-| q05           | lower 5% point of groundwater level measurements (mNAP)
-| q95           | upper 5% point of groundwater level measurements (mNAP)
+| q05           | lower 5% point of measurements (mNAP)
+| q95           | upper 5% point of measurements (mNAP)
 | dq0595        | difference between q05 and q95
 
 
-####dino-locstats.csv
-data from srstats aggregated to over 53.000 well locations
+dino-locstats.csv
+-----------------
+Statistics from srstats aggregated to over 53.000 well locations 
 
-#### fields available:
+fields available: 
 locname,locname,filname,alias,surfacelevel,filbot,xcr,ycr,firstdate,lastdate,minyear,maxyear,nyears,yearspan
 
 for content description of fields see above.
