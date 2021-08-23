@@ -1,16 +1,34 @@
 dino-digest
 ===========
 
-csv tables with digested data from the Dutch national groundwater database Dino
+Tables with digested data from the Dutch national groundwater database 
+Dinonolket.nl
 
 Dutch national groundwater database Dino
 ----------------------------------------
-More than 80.000 groundwater head series from the Netherlands are available on https://www.dinoloket.nl/ and can be downloaded manually free of charge. This repository presents tables with digested data from this groundwater database to help users find groundwater head series with specific characteristics more easily. Files are updated every few months, as creating these tables requires downloading data from dinoloket manually.
+More than 80.000 groundwater head series from the Netherlands are 
+available on https://www.dinoloket.nl/. Data can be downloaded free of 
+charge. 
 
-Two tables with digested data are available: 
+This repository presents tables with desciptive statistics for all
+available groundwater head series. This way, groundwater head series 
+with specific characteristics can be found more easily. 
 
-dino-srstats.csv 
----------------- 
+The folowing tables with digested data are available: 
+
+| table              | content description                                         |  
+| ------------------ | -------------------                                         |  
+| peilbuizen-srstats | descriptive statistics of groundwater head series           |  
+| peilbuizen-locstats | descriptive statistics of all head series at onde location |  
+| peilbuizen-xg       | descriptive statistics for each year for all head series   |  
+| peilschalen-srstats | descriptive statistics of all surface water level gauges   |  
+| peilschalen-remarks | list of remarks added tot gauge measurments                |  
+  
+
+Explanation of column contants for tables srstats and locstats:  
+  
+dino-srstats 
+------------ 
 statistics from over 80.000 well tube measurements 
 
 | column name   | content description                                      |
@@ -40,8 +58,7 @@ statistics from over 80.000 well tube measurements
 | ghgw          | ghg based on winter measurements only 
 | glgs          | glg based on summer measurements only 
 | gvg3          | mean spring grondwater level based on 14-3, 28-3 and 14-4 
-| gvg1          | gvg based on 1st op april only 
-| n1428         | 
+| gvg1          | gvg based on 1st on april only 
 | ghgnyr        | number of years used for ghg 
 | glgnyr        | number of years used for glg 
 | ghgwnyr       | number of years used for ghgw 
@@ -53,8 +70,8 @@ statistics from over 80.000 well tube measurements
 | gtref         | reference level used for calculating statistics
 
 
-dino-locstats.csv
------------------
+dino-locstats
+-------------
 Statistics from srstats aggregated to over 53.000 well locations 
 
 | column name   | content description                                      |
