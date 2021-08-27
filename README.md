@@ -1,30 +1,35 @@
-dino-digest
-===========
-
+dino-digest  
+===========  
+  
 Tables with digested data from the Dutch national groundwater database 
 Dinonolket.nl
-
+  
 Dutch national groundwater database Dino
 ----------------------------------------
 More than 80.000 groundwater head series from the Netherlands are 
 available on https://www.dinoloket.nl/. Data can be downloaded free of 
 charge. 
-
+  
 This repository presents tables with desciptive statistics for all
 available groundwater head series. This way, groundwater head series 
 with specific characteristics can be found more easily. 
-
-The folowing tables with digested data are available: 
-
-| table              | content description                                         |  
-| ------------------ | -------------------                                         |  
-| peilbuizen-srstats | descriptive statistics of groundwater head series           |  
-| peilbuizen-locstats | descriptive statistics of all head series at onde location |  
-| peilbuizen-xg       | descriptive statistics for each year for all head series   |  
-| peilschalen-srstats | descriptive statistics of all surface water level gauges   |  
-| peilschalen-remarks | list of remarks added tot gauge measurments                |  
   
-
+The folowing tables with digested data are available: 
+  
+| table               | content description                                         |  
+| ------------------- | -------------------                                         |  
+| peilbuizen-srstats  | descriptive statistics of groundwater head series           |  
+| peilbuizen-locstats | descriptive statistics of all head series at onde location  |  
+| peilbuizen-xg       | descriptive statistics for each year for all head series    |  
+| peilschalen-srstats | descriptive statistics of all surface water level gauges    |  
+| peilschalen-remarks | list of remarks added tot gauge measurments                 |  
+    
+Tables srstats with groundwater head statistics contains values of the GXG,
+a descriptive statistic descibing mean head in winter, spring and summer.
+This table is available in two versions. In the file ending with mnap contains 
+the Gxg in meters relative tot datum level (NAP). Yhe file ending with mv 
+contains GxG in meters relative to surface level (maaiveld).
+  
 Explanation of column contants for tables srstats and locstats:  
   
 dino-srstats 
