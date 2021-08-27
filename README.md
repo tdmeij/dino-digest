@@ -6,7 +6,7 @@ Dinonolket.nl
   
 Dutch national groundwater database Dino
 ----------------------------------------
-More than 80.000 groundwater head series from the Netherlands are 
+Over 80.000 groundwater head series from the Netherlands are 
 available on https://www.dinoloket.nl/. Data can be downloaded free of 
 charge. 
   
@@ -14,23 +14,29 @@ This repository presents tables with desciptive statistics for all
 available groundwater head series. This way, groundwater head series 
 with specific characteristics can be found more easily. 
   
+Description of available data files
+-----------------------------------
+  
 The folowing tables with digested data are available: 
   
 | table               | content description                                         |  
 | ------------------- | -------------------                                         |  
 | peilbuizen-srstats  | descriptive statistics of groundwater head series           |  
-| peilbuizen-locstats | descriptive statistics of all head series at onde location  |  
+| peilbuizen-locstats | descriptive statistics of all head series at a single location  |  
 | peilbuizen-xg       | descriptive statistics for each year for all head series    |  
 | peilschalen-srstats | descriptive statistics of all surface water level gauges    |  
-| peilschalen-remarks | list of remarks added tot gauge measurments                 |  
+| peilschalen-remarks | list of remarks added tot gauge measurements                 |  
     
-Tables srstats with groundwater head statistics contains values of the GXG,
+Tables srstats with groundwater head statistics contains values of the GxG,
 a descriptive statistic descibing mean head in winter, spring and summer.
 This table is available in two versions. In the file ending with mnap contains 
-the Gxg in meters relative tot datum level (NAP). Yhe file ending with mv 
+the GxG in meters relative tot datum level (NAP). The file ending with mv 
 contains GxG in meters relative to surface level (maaiveld).
   
-Explanation of column contants for tables srstats and locstats:  
+Detailed description of column contents
+---------------------------------------
+  
+Explanation of column contents for tables srstats and locstats:  
   
 dino-srstats 
 ------------ 
@@ -62,7 +68,8 @@ statistics from over 80.000 well tube measurements
 | glg           | mean lowest groundwater table 
 | ghgw          | ghg based on winter measurements only 
 | glgs          | glg based on summer measurements only 
-| gvg3          | mean spring grondwater level based on 14-3, 28-3 and 14-4 
+| gvg3          | mean spring grondwater level based on march 14th, 
+march 28th and march 14th 
 | gvg1          | gvg based on 1st on april only 
 | ghgnyr        | number of years used for ghg 
 | glgnyr        | number of years used for glg 
